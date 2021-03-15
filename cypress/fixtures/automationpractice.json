@@ -1,0 +1,60 @@
+{
+  "automationPractice": {
+    "url": "http://automationpractice.com/index.php",
+    "login": {
+      "xpachClickSearch": ["//*[@id='header']/div[2]/div/div/nav/div[1]/a"],
+      "xpathInputEmail": "//*[@id='email']",
+      "xpathInputPassword": "//*[@id='passwd']",
+      "email": "qatestingexample@gmail.com",
+      "password": "Qatesting12!",
+      "xpathClick": "//*[@id='SubmitLogin']",
+      "hashExpect": "http://automationpractice.com/index.php?controller=my-account"
+    },
+    "contactForm": {
+        "contactFormId":"#contact-link > a",
+        "submitButtonId": "#submitMessage > span",
+        "alertTextId":"#center_column > div > ol > li",
+        "contactDropDownId":"#id_contact",
+        "emailId":"#email",
+        "orderDropDownId":"#id_order",
+        "messageBoxId":"#message",
+        "messageSentFormId": "#center_column > p",
+        "fileUploadId":"#fileUpload"
+    },
+    "checkoutFlowId": {
+      "womenSectionId": "#block_top_menu > ul > li:nth-child(1) > a",
+      "productId": "#center_column > ul > li:nth-child(1) > div > div.left-block > div > a.product_img_link",
+      "addToCartId":"#add_to_cart > .exclusive",
+      "checkoutConfirmId":".button-medium > span",
+      "checkoutConfirm2Id":"#center_column > p.cart_navigation.clearfix > a.button.btn.btn-default.standard-checkout.button-medium > span",
+      "checkoutConfirm3Id":"#center_column > form > p > button > span",
+      "acceptTandC":"#cgv",
+      "checkoutConfirm4Id":"#form > p > button > span",
+      "checkPaymentMethod":"#HOOK_PAYMENT > div:nth-child(1) > div > p > a",
+      "checkMessageAlerId":".cheque-indent",
+      "checkMessageAssertion":"\n\t\t\tYour order on My Store is complete.\n\t\t",
+      "bankwirePaymentMethodId":"#HOOK_PAYMENT > div:nth-child(2) > div > p > a",
+      "bankwireMessageAlertId":"#center_column > p.alert.alert-success",
+      "bankwireMessageAssertion":"Your order on My Store is complete.",
+      "lastcheckoutconfirmationId":"#cart_navigation > button > span"
+    },
+    "addItems": {
+      "cartNumberId":"[title='View my shopping cart'] > .ajax_cart_quantity", 
+      "cartSectionId":"#header > div:nth-child(3) > div > div > div:nth-child(3) > div > a",
+      "womenSectionId": "#block_top_menu > ul > li:nth-child(1) > a"
+
+    },
+    "deleteItems": {
+      "cart": "//*[@id='header']/div[3]/div/div/div[3]/div/a",
+      "item": "//*[@id='cart_summary']/tbody/tr",
+      "clicksToDelete": [
+        {
+          "deleteIcon": "[2]/td[7]/div/a",
+          "confirmDelete": "",
+          "closeModal": ""
+        }
+      ],
+      "cartAccountItems": "//*[@id='header']/div[3]/div/div/div[3]/div/a/span[1]"
+    }
+  }
+}

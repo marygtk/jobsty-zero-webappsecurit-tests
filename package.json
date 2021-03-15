@@ -1,0 +1,34 @@
+{
+  "name": "jobsty-zero-webappsecurit-tests",
+  "version": "1.0.0",
+  "description": "QA Challenge for jobsity ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cy:run",
+    "clean-results": "rm -rf allure-results/*",
+    "clean-report": "rm -rf allure-report/*",
+    "create-report": "allure generate --clean && allure open",
+    "cy:allure:run": "npx cypress run --config video=false --env allure=true",
+    "cy:run:automationpractice": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/automationPractice/*'",
+    "cy:run:zerobank": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/zeroBank/*'"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marygtk/jobsty-zero-webappsecurit-tests.git"
+  },
+  "author": "Angeles Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://docs.google.com/spreadsheets/d/143VqQq2TQTsjqFlnlvAeI7YYXQre_KG9nfIf_6hoXXk/edit#gid=0"
+  },
+  "homepage": "https://github.com/marygtk/jobsty-zero-webappsecurit-tests#readme",
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.3.6",
+    "cypress-xpath": "^1.6.2"
+  },
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-file-upload": "^5.0.2"
+  }
+}

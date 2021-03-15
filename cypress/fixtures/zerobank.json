@@ -1,0 +1,11 @@
+{
+ "navbar": "#nav",
+ "onlinebankingid":"#onlineBankingMenu",
+ "feedbackid":"#feedback",
+ "signinbuttonid":"#signin_button",
+ "sendformfeedback":".btn-signin.btn.btn-primary",
+ "formnameid":"#name",
+ "formemailid":"#email",
+ "formsubjectid":"#subject",
+ "formcommentid":"#comment"
+}

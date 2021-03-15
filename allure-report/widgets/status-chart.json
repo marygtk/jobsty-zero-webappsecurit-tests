@@ -1,0 +1,341 @@
+[ {
+  "uid" : "688d8f32dae76b6c",
+  "name" : "Add items all the items of women section to the cart and then delete and validate them.",
+  "time" : {
+    "start" : 1615777953922,
+    "stop" : 1615778015784,
+    "duration" : 61862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bc478b8c2b4d221",
+  "name" : "Verify the navigation bar on the feedback form page",
+  "time" : {
+    "start" : 1615778178360,
+    "stop" : 1615778189758,
+    "duration" : 11398
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6065e87e00f74156",
+  "name" : "Validate that the feedback form has not been sent when only the username field filled",
+  "time" : {
+    "start" : 1615692489319,
+    "stop" : 1615692492588,
+    "duration" : 3269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e7b0a175f906f26",
+  "name" : "Verify navigation bar on the feedback form page",
+  "time" : {
+    "start" : 1615692463131,
+    "stop" : 1615692468523,
+    "duration" : 5392
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c2a640ed7cb263",
+  "name" : "Validate the error message when submiting the form by filling the subject heading, email address, order number, message and upload a .jpg file",
+  "time" : {
+    "start" : 1615778137064,
+    "stop" : 1615778146487,
+    "duration" : 9423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84c3a39a081add65",
+  "name" : "Verify URL path on singin page",
+  "time" : {
+    "start" : 1615778207962,
+    "stop" : 1615778219106,
+    "duration" : 11144
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd63673ab74c4ce9",
+  "name" : "Verify the layout of the website using mobile viewport samsung galaxy note 3",
+  "time" : {
+    "start" : 1615778155043,
+    "stop" : 1615778160429,
+    "duration" : 5386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd345854caaf8283",
+  "name" : "Validate the error message when submiting the form by filling the subject heading, email address, and order number fields",
+  "time" : {
+    "start" : 1615778116716,
+    "stop" : 1615778126725,
+    "duration" : 10009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed551755096fac22",
+  "name" : "Validate that the feedback form has not been sent when only the username field is filled",
+  "time" : {
+    "start" : 1615778222368,
+    "stop" : 1615778225063,
+    "duration" : 2695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bf53483ba7a245f",
+  "name" : "Validate the checkout flow by adding an item to the cart and follow checkout flow, choosen payment method: checks",
+  "time" : {
+    "start" : 1615777883476,
+    "stop" : 1615777918744,
+    "duration" : 35268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b341ebef3c1a8ca7",
+  "name" : "Validate the error message when submiting the form by filling the subject heading and the email address",
+  "time" : {
+    "start" : 1615778091650,
+    "stop" : 1615778116620,
+    "duration" : 24970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efa786a97b47b7a1",
+  "name" : "Verify the navigation bar on the online banking page",
+  "time" : {
+    "start" : 1615778174284,
+    "stop" : 1615778178285,
+    "duration" : 4001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63a5687d7cf3b66a",
+  "name" : "Validate that the feedback form has not been sent when only the username, email, and subject fields are filled",
+  "time" : {
+    "start" : 1615778228095,
+    "stop" : 1615778231167,
+    "duration" : 3072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c67806881af5957",
+  "name" : "Verify navigation bar on the singin page",
+  "time" : {
+    "start" : 1615778189865,
+    "stop" : 1615778201417,
+    "duration" : 11552
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a9bf9a08a13b929",
+  "name" : "Verify navigation bar on the online banking page",
+  "time" : {
+    "start" : 1615692459423,
+    "stop" : 1615692462902,
+    "duration" : 3479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc9daf463931fa16",
+  "name" : "Verify the layout of the website using mobile viewport samsung galaxy s9",
+  "time" : {
+    "start" : 1615778160482,
+    "stop" : 1615778164131,
+    "duration" : 3649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d662b044c0dbee7",
+  "name" : "Verify URL path on feedback page",
+  "time" : {
+    "start" : 1615778205068,
+    "stop" : 1615778207857,
+    "duration" : 2789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e695443f5d6250",
+  "name" : "Validate the submition of the form without any data",
+  "time" : {
+    "start" : 1615778051810,
+    "stop" : 1615778072225,
+    "duration" : 20415
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "96ccd72126ac6d7f",
+  "name" : "Validate that the feedback form has not been sent when the required fields are empty",
+  "time" : {
+    "start" : 1615778219127,
+    "stop" : 1615778222253,
+    "duration" : 3126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59be5088b47b7e1c",
+  "name" : "Verify URL path on online banking page",
+  "time" : {
+    "start" : 1615778201438,
+    "stop" : 1615778204970,
+    "duration" : 3532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbb8b33e36616a4b",
+  "name" : "Verify that the main navigation is displayed on the home page of the site.",
+  "time" : {
+    "start" : 1615778170733,
+    "stop" : 1615778174213,
+    "duration" : 3480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc13f08e2f4a27bb",
+  "name" : "Verify the layout of the website using mobile viewport for iPad",
+  "time" : {
+    "start" : 1615778167709,
+    "stop" : 1615778170676,
+    "duration" : 2967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "644bac7350f1e358",
+  "name" : "Validate that the feedback form has not been sent when only the username and the email field filled",
+  "time" : {
+    "start" : 1615692492597,
+    "stop" : 1615692495914,
+    "duration" : 3317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "274ce58630144587",
+  "name" : "Validate that the feedback form has not been sent when only the username, email, and subject field filled",
+  "time" : {
+    "start" : 1615692495924,
+    "stop" : 1615692499356,
+    "duration" : 3432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deea79f7b798f7c9",
+  "name" : "Verify the main navigation is displayed in all the internal tabs of the site.",
+  "time" : {
+    "start" : 1615692456584,
+    "stop" : 1615692459413,
+    "duration" : 2829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c02fb28bcae75055",
+  "name" : "Login on Automation Practice",
+  "time" : {
+    "start" : 1615778026203,
+    "stop" : 1615778042554,
+    "duration" : 16351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e76703ee87f61f21",
+  "name" : "Validate the error message when submiting the form by filling the subject heading only",
+  "time" : {
+    "start" : 1615778072298,
+    "stop" : 1615778082260,
+    "duration" : 9962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a82fbd3412b9566",
+  "name" : "Validate the checkout flow by adding an item to the cart and follow checkout flow, choosen payment method: bank wire account",
+  "time" : {
+    "start" : 1615777918814,
+    "stop" : 1615777944504,
+    "duration" : 25690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be08f26ce1edf6a5",
+  "name" : "Validate that the feedback form has was sent when all the fields are filled",
+  "time" : {
+    "start" : 1615692499363,
+    "stop" : 1615692503246,
+    "duration" : 3883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ef82dfc97efb87",
+  "name" : "Validate that the feedback form has not been sent when only the username and the email fields are filled",
+  "time" : {
+    "start" : 1615778225070,
+    "stop" : 1615778227968,
+    "duration" : 2898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "375e3d45c5708a5d",
+  "name" : "Validate that the feedback form was sent when all the fields are filled",
+  "time" : {
+    "start" : 1615778231261,
+    "stop" : 1615778232280,
+    "duration" : 1019
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa1b51118c48911f",
+  "name" : "Validate the error message when submiting the form by filling the subject heading and an invalid email address",
+  "time" : {
+    "start" : 1615778082346,
+    "stop" : 1615778091544,
+    "duration" : 9198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e0e1b9a3afd2bd",
+  "name" : "Validate the message when submiting the form by filling only the subject heading, email address, order number, message fields ",
+  "time" : {
+    "start" : 1615778126812,
+    "stop" : 1615778136978,
+    "duration" : 10166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfd4636a6de71355",
+  "name" : "Verify the layout of the website using mobile viewport for iPhone 6/7/8",
+  "time" : {
+    "start" : 1615778164177,
+    "stop" : 1615778167664,
+    "duration" : 3487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
+    "name" : "Test Suite for Zero Bank",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 23
+    }
+  }, {
+    "uid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
+    "name" : "test suite for the contact form inputs validation",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "e5ff9fea41ef3e7d0a767025c4d0f486",
+    "name" : "Validate the checkout flow when adding items to the cart and paying with checks and with bank account",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4cdc8b0c80aa5b0fcf3e9cc7a9024c05",
+    "name" : "Add items to the cart and validate in the cart that the quantity of items are the same and the delete all of then and validate the deletion",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "05668ffb6669b0d649ea167ac12ea2e1",
+    "name" : "Test Suite for login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

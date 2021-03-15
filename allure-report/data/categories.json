@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#nav`, but never found it.",
+      "children" : [ {
+        "name" : "Verify navigation bar on the feedback form page",
+        "uid" : "5e7b0a175f906f26",
+        "parentUid" : "24c10e869c7aa626ba702245c86a142f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615692463131,
+          "stop" : 1615692468523,
+          "duration" : 5392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24c10e869c7aa626ba702245c86a142f"
+    }, {
+      "name" : "Timed out retrying after 10000ms: expected '<li>' to have text 'The message cannot be blank.', but the text was 'Invalid email address.'",
+      "children" : [ {
+        "name" : "Validate the submition of the form without any data",
+        "uid" : "d5e695443f5d6250",
+        "parentUid" : "f23e33f49cb9936d1ad986af78810c3b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615778051810,
+          "stop" : 1615778072225,
+          "duration" : 20415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f23e33f49cb9936d1ad986af78810c3b"
+    }, {
+      "name" : "Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.",
+      "children" : [ {
+        "name" : "Verify the navigation bar on the feedback form page",
+        "uid" : "9bc478b8c2b4d221",
+        "parentUid" : "d02f591cd3c3582bd180431ac4361d2e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615778178360,
+          "stop" : 1615778189758,
+          "duration" : 11398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify navigation bar on the singin page",
+        "uid" : "5c67806881af5957",
+        "parentUid" : "d02f591cd3c3582bd180431ac4361d2e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615778189865,
+          "stop" : 1615778201417,
+          "duration" : 11552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d02f591cd3c3582bd180431ac4361d2e"
+    }, {
+      "name" : "Timed out retrying after 10000ms: expected '/login.html' to include 'singin'",
+      "children" : [ {
+        "name" : "Verify URL path on singin page",
+        "uid" : "84c3a39a081add65",
+        "parentUid" : "193c4fce61608ed53cdb226998bd6e61",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615778207962,
+          "stop" : 1615778219106,
+          "duration" : 11144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "193c4fce61608ed53cdb226998bd6e61"
+    }, {
+      "name" : "testValues is not defined",
+      "children" : [ {
+        "name" : "Validate that the feedback form was sent when all the fields are filled",
+        "uid" : "375e3d45c5708a5d",
+        "parentUid" : "2d86d96b6257bda928ea7a720a625867",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615778231261,
+          "stop" : 1615778232280,
+          "duration" : 1019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d86d96b6257bda928ea7a720a625867"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
