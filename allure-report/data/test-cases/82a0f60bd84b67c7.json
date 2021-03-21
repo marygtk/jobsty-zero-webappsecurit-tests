@@ -1,0 +1,247 @@
+{
+  "uid" : "82a0f60bd84b67c7",
+  "name" : "Verify URL path on online banking page",
+  "fullName" : "Verify URL path on online banking page",
+  "historyId" : "f9eb0e7aa508b6d24073dfab74180ade",
+  "time" : {
+    "start" : 1615778201438,
+    "stop" : 1615778204970,
+    "duration" : 3532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778201439,
+        "stop" : 1615778202422,
+        "duration" : 983
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"zerobank.json\")",
+        "time" : {
+          "start" : 1615778201479,
+          "stop" : 1615778201479,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778201479,
+          "stop" : 1615778201480,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://zero.webappsecurity.com\")",
+        "time" : {
+          "start" : 1615778201480,
+          "stop" : 1615778202422,
+          "duration" : 942
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"@testValues\")",
+      "time" : {
+        "start" : 1615778202423,
+        "stop" : 1615778202425,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#onlineBankingMenu\")",
+      "time" : {
+        "start" : 1615778202427,
+        "stop" : 1615778202436,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1615778202436,
+        "stop" : 1615778202538,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1615778202538,
+        "stop" : 1615778202538,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "location (\"pathname\")",
+      "time" : {
+        "start" : 1615778202538,
+        "stop" : 1615778202762,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "pathname location",
+      "time" : {
+        "start" : 1615778202761,
+        "stop" : 1615778202761,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **/online-banking.html** to include **online-banking** assert",
+      "time" : {
+        "start" : 1615778202762,
+        "stop" : 1615778202762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1615778202762,
+        "stop" : 1615778204969,
+        "duration" : 2207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9e99aa797d761536",
+      "name" : "examples\\zeroBank\\zeoBankTests.spec.js:2021-03-15T03:16:43.588Z",
+      "source" : "9e99aa797d761536.png",
+      "type" : "image/png",
+      "size" : 337983
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for Zero Bank"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b486bb9dddf8259",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615769652527,
+        "stop" : 1615769655776,
+        "duration" : 3249
+      }
+    }, {
+      "uid" : "433132264dbf3e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615692473896,
+        "stop" : 1615692476838,
+        "duration" : 2942
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82a0f60bd84b67c7.json",
+  "parameterValues" : [ ]
+}

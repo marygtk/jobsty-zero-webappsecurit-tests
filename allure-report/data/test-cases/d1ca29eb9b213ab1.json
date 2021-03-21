@@ -1,0 +1,128 @@
+{
+  "uid" : "d1ca29eb9b213ab1",
+  "name" : "Validate that the feedback form was sent when all the fields are filled",
+  "fullName" : "Validate that the feedback form was sent when all the fields are filled",
+  "historyId" : "88fd404f6bf77b330630de1417dc8ae9",
+  "time" : {
+    "start" : 1615778231261,
+    "stop" : 1615778232280,
+    "duration" : 1019
+  },
+  "status" : "failed",
+  "statusMessage" : "testValues is not defined",
+  "statusTrace" : "ReferenceError: testValues is not defined\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:240:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "testValues is not defined",
+    "statusTrace" : "ReferenceError: testValues is not defined\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:240:12)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778231262,
+        "stop" : 1615778231564,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"zerobank.json\")",
+        "time" : {
+          "start" : 1615778231274,
+          "stop" : 1615778231275,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778231275,
+          "stop" : 1615778231276,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://zero.webappsecurity.com\")",
+        "time" : {
+          "start" : 1615778231276,
+          "stop" : 1615778231564,
+          "duration" : 288
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "77d6beda5d9f8a3e",
+      "name" : "examples\\zeroBank\\zeoBankTests.spec.js:2021-03-15T03:17:11.584Z",
+      "source" : "77d6beda5d9f8a3e.png",
+      "type" : "image/png",
+      "size" : 443282
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for Zero Bank"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cba802a76d356e52",
+      "status" : "failed",
+      "statusDetails" : "testValues is not defined",
+      "time" : {
+        "start" : 1615769682737,
+        "stop" : 1615769683817,
+        "duration" : 1080
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d1ca29eb9b213ab1.json",
+  "parameterValues" : [ ]
+}

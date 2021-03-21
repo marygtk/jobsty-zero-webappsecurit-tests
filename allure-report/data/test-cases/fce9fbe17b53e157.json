@@ -1,0 +1,307 @@
+{
+  "uid" : "fce9fbe17b53e157",
+  "name" : "Validate that the feedback form has not been sent when the required fields are empty",
+  "fullName" : "Validate that the feedback form has not been sent when the required fields are empty",
+  "historyId" : "175f3fcaa377302040c0803b64933eb6",
+  "time" : {
+    "start" : 1615778219127,
+    "stop" : 1615778222253,
+    "duration" : 3126
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778219128,
+        "stop" : 1615778219817,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"zerobank.json\")",
+        "time" : {
+          "start" : 1615778219176,
+          "stop" : 1615778219178,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778219178,
+          "stop" : 1615778219179,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://zero.webappsecurity.com\")",
+        "time" : {
+          "start" : 1615778219179,
+          "stop" : 1615778219816,
+          "duration" : 637
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"@testValues\")",
+      "time" : {
+        "start" : 1615778219819,
+        "stop" : 1615778219821,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#feedback\")",
+      "time" : {
+        "start" : 1615778219823,
+        "stop" : 1615778219838,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1615778219838,
+        "stop" : 1615778219959,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1615778219959,
+        "stop" : 1615778219959,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "location (\"pathname\")",
+      "time" : {
+        "start" : 1615778219959,
+        "stop" : 1615778220174,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "pathname location",
+      "time" : {
+        "start" : 1615778220173,
+        "stop" : 1615778220174,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **/feedback.html** to include **feedback** assert",
+      "time" : {
+        "start" : 1615778220174,
+        "stop" : 1615778220174,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".btn-signin.btn.btn-primary\")",
+      "time" : {
+        "start" : 1615778220174,
+        "stop" : 1615778220184,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1615778220184,
+        "stop" : 1615778220342,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "location (\"pathname\")",
+      "time" : {
+        "start" : 1615778220342,
+        "stop" : 1615778220349,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **/feedback.html** to include **feedback** assert",
+      "time" : {
+        "start" : 1615778220349,
+        "stop" : 1615778220349,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1615778220349,
+        "stop" : 1615778222252,
+        "duration" : 1903
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f6563af7b37ff64e",
+      "name" : "examples\\zeroBank\\zeoBankTests.spec.js:2021-03-15T03:17:01.032Z",
+      "source" : "f6563af7b37ff64e.png",
+      "type" : "image/png",
+      "size" : 140987
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for Zero Bank"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f16e7890498147fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615769669784,
+        "stop" : 1615769673298,
+        "duration" : 3514
+      }
+    }, {
+      "uid" : "efc68d33e5d95db3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615692485657,
+        "stop" : 1615692488695,
+        "duration" : 3038
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fce9fbe17b53e157.json",
+  "parameterValues" : [ ]
+}

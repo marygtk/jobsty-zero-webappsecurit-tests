@@ -4,14 +4,22 @@
   "description": "QA Challenge for jobsity ",
   "main": "index.js",
   "scripts": {
-    "test": "cy:run",
+    "test": "cypress run",
+    "test:open":"cypress open",
     "clean-results": "rm -rf allure-results/*",
     "clean-report": "rm -rf allure-report/*",
     "create-report": "allure generate --clean && allure open",
-    "cy:allure:run": "npx cypress run --config video=false --env allure=true",
-    "cy:run:automationpractice": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/automationPractice/*'",
-    "cy:run:zerobank": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/zeroBank/*'"
-
+    "cy:allure:run": "npx cypress run --config video=true --env allure=true",
+    "cy:run:chrome:checkoutflow": "cypress run --browser chrome  --spec 'cypress/integration/examples/automationPractice/addItemAndCheckoutFlow.spec.js'",
+    "cy:run:chrome:additemstocart": "cypress run --browser chrome  --spec 'cypress/integration/examples/automationPractice/addItemsAndValidateThemTest.spec.js'",
+    "cy:run:chrome:login": "cypress run --browser chrome  --spec 'cypress/integration/examples/automationPractice/automationPracticeLoginTests.spec.js'",
+    "cy:run:chrome:contactform": "cypress run --browser chrome  --spec 'cypress/integration/examples/automationPractice/ContactFormAutomationPracticeTest.spec.js'",
+    "cy:run:firefox:checkoutflow": "cypress run --browser firefox  --spec 'cypress/integration/examples/automationPractice/addItemAndCheckoutFlow.spec.js'",
+    "cy:run:firefox:additemstocart": "cypress run --browser firefox  --spec 'cypress/integration/examples/automationPractice/addItemsAndValidateThemTest.spec.js'",
+    "cy:run:firefox:login": "cypress run --browser firefox  --spec 'cypress/integration/examples/automationPractice/automationPracticeLoginTests.spec.js'",
+    "cy:run:firefox:contactform": "cypress run --browser firefox  --spec 'cypress/integration/examples/automationPractice/ContactFormAutomationPracticeTest.spec.js'",
+    "cy:run:chrome:zerobank": "cypress run --browser chrome  --spec 'cypress/integration/examples/zeroBank/*'",
+    "cy:run:firefox:zerobank": "cypress run --browser firefox  --spec 'cypress/integration/examples/zeroBank/*'"
   },
   "repository": {
     "type": "git",

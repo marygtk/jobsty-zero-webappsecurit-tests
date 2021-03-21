@@ -5,7 +5,7 @@
     "name" : "Test Suite for Zero Bank",
     "children" : [ {
       "name" : "Verify the main navigation is displayed in all the internal tabs of the site.",
-      "uid" : "deea79f7b798f7c9",
+      "uid" : "214cdeb2430ddeb4",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify navigation bar on the online banking page",
-      "uid" : "6a9bf9a08a13b929",
+      "uid" : "f2b421337e2e1379",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -31,7 +31,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify navigation bar on the feedback form page",
-      "uid" : "5e7b0a175f906f26",
+      "uid" : "26d1ef094d119cb3",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "failed",
       "time" : {
@@ -44,7 +44,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username field filled",
-      "uid" : "6065e87e00f74156",
+      "uid" : "ea297babf926e111",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -57,7 +57,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username and the email field filled",
-      "uid" : "644bac7350f1e358",
+      "uid" : "7fff6d935d6e3779",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -70,7 +70,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username, email, and subject field filled",
-      "uid" : "274ce58630144587",
+      "uid" : "84171a3dc66b09e0",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -83,7 +83,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has was sent when all the fields are filled",
-      "uid" : "be08f26ce1edf6a5",
+      "uid" : "1ea687437eaa445a",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -96,7 +96,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the layout of the website using mobile viewport samsung galaxy note 3",
-      "uid" : "fd63673ab74c4ce9",
+      "uid" : "ad3b42693a05fc8b",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -109,7 +109,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the layout of the website using mobile viewport samsung galaxy s9",
-      "uid" : "fc9daf463931fa16",
+      "uid" : "f2cab4ad681ad89e",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -122,7 +122,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the layout of the website using mobile viewport for iPhone 6/7/8",
-      "uid" : "dfd4636a6de71355",
+      "uid" : "f1928521ec3ff420",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -135,7 +135,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the layout of the website using mobile viewport for iPad",
-      "uid" : "bc13f08e2f4a27bb",
+      "uid" : "cb80fa9c88ae03d5",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -148,7 +148,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify that the main navigation is displayed on the home page of the site.",
-      "uid" : "dbb8b33e36616a4b",
+      "uid" : "ccb8ae7dd9449715",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -161,7 +161,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the navigation bar on the online banking page",
-      "uid" : "efa786a97b47b7a1",
+      "uid" : "dff42cd597586563",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -174,7 +174,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the navigation bar on the feedback form page",
-      "uid" : "9bc478b8c2b4d221",
+      "uid" : "ec153abc1c7e146c",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "failed",
       "time" : {
@@ -187,7 +187,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify navigation bar on the singin page",
-      "uid" : "5c67806881af5957",
+      "uid" : "af1d1af6576862c4",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "failed",
       "time" : {
@@ -200,7 +200,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify URL path on online banking page",
-      "uid" : "59be5088b47b7e1c",
+      "uid" : "82a0f60bd84b67c7",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -213,7 +213,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify URL path on feedback page",
-      "uid" : "4d662b044c0dbee7",
+      "uid" : "3c89537458a7e4bf",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -226,7 +226,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify URL path on singin page",
-      "uid" : "84c3a39a081add65",
+      "uid" : "96b502693ac56e67",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "failed",
       "time" : {
@@ -239,7 +239,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when the required fields are empty",
-      "uid" : "96ccd72126ac6d7f",
+      "uid" : "fce9fbe17b53e157",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -252,7 +252,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username field is filled",
-      "uid" : "ed551755096fac22",
+      "uid" : "9fa5bb289dfe7635",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -265,7 +265,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username and the email fields are filled",
-      "uid" : "a3ef82dfc97efb87",
+      "uid" : "af6523e20044ed8",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -278,7 +278,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form has not been sent when only the username, email, and subject fields are filled",
-      "uid" : "63a5687d7cf3b66a",
+      "uid" : "d00e5ecd477e98fd",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "passed",
       "time" : {
@@ -291,7 +291,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate that the feedback form was sent when all the fields are filled",
-      "uid" : "375e3d45c5708a5d",
+      "uid" : "d1ca29eb9b213ab1",
       "parentUid" : "df4cdaddccc663d6bdf5ec52b6b3d277",
       "status" : "failed",
       "time" : {
@@ -308,7 +308,7 @@
     "name" : "Validate the checkout flow when adding items to the cart and paying with checks and with bank account",
     "children" : [ {
       "name" : "Validate the checkout flow by adding an item to the cart and follow checkout flow, choosen payment method: checks",
-      "uid" : "1bf53483ba7a245f",
+      "uid" : "27be0c3e3d761de9",
       "parentUid" : "e5ff9fea41ef3e7d0a767025c4d0f486",
       "status" : "passed",
       "time" : {
@@ -321,7 +321,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the checkout flow by adding an item to the cart and follow checkout flow, choosen payment method: bank wire account",
-      "uid" : "9a82fbd3412b9566",
+      "uid" : "ed17e7d215fd3de",
       "parentUid" : "e5ff9fea41ef3e7d0a767025c4d0f486",
       "status" : "passed",
       "time" : {
@@ -338,7 +338,7 @@
     "name" : "Add items to the cart and validate in the cart that the quantity of items are the same and the delete all of then and validate the deletion",
     "children" : [ {
       "name" : "Add items all the items of women section to the cart and then delete and validate them.",
-      "uid" : "688d8f32dae76b6c",
+      "uid" : "e5f22fc5f8cc5b73",
       "parentUid" : "4cdc8b0c80aa5b0fcf3e9cc7a9024c05",
       "status" : "passed",
       "time" : {
@@ -355,7 +355,7 @@
     "name" : "Test Suite for login",
     "children" : [ {
       "name" : "Login on Automation Practice",
-      "uid" : "c02fb28bcae75055",
+      "uid" : "ab8dfb3df588ea6c",
       "parentUid" : "05668ffb6669b0d649ea167ac12ea2e1",
       "status" : "passed",
       "time" : {
@@ -372,7 +372,7 @@
     "name" : "test suite for the contact form inputs validation",
     "children" : [ {
       "name" : "Validate the submition of the form without any data",
-      "uid" : "d5e695443f5d6250",
+      "uid" : "f089e73aa2466f53",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "failed",
       "time" : {
@@ -385,7 +385,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the error message when submiting the form by filling the subject heading only",
-      "uid" : "e76703ee87f61f21",
+      "uid" : "de4025b4806ff3fa",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {
@@ -398,7 +398,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the error message when submiting the form by filling the subject heading and an invalid email address",
-      "uid" : "aa1b51118c48911f",
+      "uid" : "bbea96411db707f1",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {
@@ -411,7 +411,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the error message when submiting the form by filling the subject heading and the email address",
-      "uid" : "b341ebef3c1a8ca7",
+      "uid" : "3560438246ce79c8",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {
@@ -424,7 +424,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the error message when submiting the form by filling the subject heading, email address, and order number fields",
-      "uid" : "fd345854caaf8283",
+      "uid" : "18477dfe76789250",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {
@@ -437,7 +437,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the message when submiting the form by filling only the subject heading, email address, order number, message fields ",
-      "uid" : "84e0e1b9a3afd2bd",
+      "uid" : "53743a6c3070373d",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {
@@ -450,7 +450,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Validate the error message when submiting the form by filling the subject heading, email address, order number, message and upload a .jpg file",
-      "uid" : "c3c2a640ed7cb263",
+      "uid" : "19cb744941dfa711",
       "parentUid" : "62d4eaba8ccc4d9e2374cec04f9776d5",
       "status" : "passed",
       "time" : {

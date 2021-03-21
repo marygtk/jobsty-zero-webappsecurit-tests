@@ -1,0 +1,419 @@
+{
+  "uid" : "ab8dfb3df588ea6c",
+  "name" : "Login on Automation Practice",
+  "fullName" : "Login on Automation Practice",
+  "historyId" : "b3508e6ea83e4ad366d4447d292c7dd5",
+  "time" : {
+    "start" : 1615778026203,
+    "stop" : 1615778042554,
+    "duration" : 16351
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778026207,
+        "stop" : 1615778032619,
+        "duration" : 6412
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"automationpractice.json\")",
+        "time" : {
+          "start" : 1615778026271,
+          "stop" : 1615778026285,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778026285,
+          "stop" : 1615778026288,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://automationpractice.com\")",
+        "time" : {
+          "start" : 1615778026288,
+          "stop" : 1615778032605,
+          "duration" : 6317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "viewport (\"1200\"; \"540\")",
+        "time" : {
+          "start" : 1615778032605,
+          "stop" : 1615778032617,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"@testValues\")",
+      "time" : {
+        "start" : 1615778032621,
+        "stop" : 1615778032634,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "visit (\"http://automationpractice.com/index.php\")",
+      "time" : {
+        "start" : 1615778032637,
+        "stop" : 1615778034290,
+        "duration" : 1653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "login (\"[object Object]\")",
+      "time" : {
+        "start" : 1615778034290,
+        "stop" : 1615778039054,
+        "duration" : 4764
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath (\"//*[@id='header']/div[2]/div/div/nav/div[1]/a\")",
+        "time" : {
+          "start" : 1615778034294,
+          "stop" : 1615778034307,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1615778034307,
+          "stop" : 1615778034484,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1615778034484,
+          "stop" : 1615778034484,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath (\"//*[@id='email']\")",
+        "time" : {
+          "start" : 1615778034484,
+          "stop" : 1615778036391,
+          "duration" : 1907
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "//*[@id='email'] xpath",
+        "time" : {
+          "start" : 1615778036390,
+          "stop" : 1615778036390,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"qatestingexample@gmail.com\")",
+        "time" : {
+          "start" : 1615778036391,
+          "stop" : 1615778037039,
+          "duration" : 648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath (\"//*[@id='passwd']\")",
+        "time" : {
+          "start" : 1615778037039,
+          "stop" : 1615778037046,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type (\"Qatesting12!\")",
+        "time" : {
+          "start" : 1615778037047,
+          "stop" : 1615778037420,
+          "duration" : 373
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath (\"//*[@id='SubmitLogin']\")",
+        "time" : {
+          "start" : 1615778037420,
+          "stop" : 1615778037427,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1615778037427,
+          "stop" : 1615778037541,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1615778037540,
+          "stop" : 1615778037540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1615778037540,
+          "stop" : 1615778037540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "locationExpect (\"http://automationpractice.com/index.php?controller=my-account\")",
+        "time" : {
+          "start" : 1615778037541,
+          "stop" : 1615778039054,
+          "duration" : 1513
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "location",
+          "time" : {
+            "start" : 1615778039029,
+            "stop" : 1615778039054,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "expected **http://automationpractice.com/index.php?controller=my-account** to equal **http://automationpractice.com/index.php?controller=my-account** assert",
+          "time" : {
+            "start" : 1615778039053,
+            "stop" : 1615778039053,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1615778039054,
+        "stop" : 1615778042552,
+        "duration" : 3498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a4229f30acbc48e9",
+      "name" : "examples\\automationPractice\\automationPracticeLoginTests.spec.js:2021-03-15T03:14:00.447Z",
+      "source" : "a4229f30acbc48e9.png",
+      "type" : "image/png",
+      "size" : 243291
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abb6d771ec1dca7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615769555499,
+        "stop" : 1615769572993,
+        "duration" : 17494
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab8dfb3df588ea6c.json",
+  "parameterValues" : [ ]
+}

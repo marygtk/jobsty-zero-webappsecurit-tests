@@ -14,7 +14,6 @@ describe("test suite for the contact form inputs validation", () => {
             "have.text",
             "The message cannot be blank."
         );
-        cy.screenshot();
     });
   });
 
@@ -27,7 +26,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "Invalid email address."
       );
-      cy.screenshot();
     });
   });
 
@@ -41,7 +39,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "Invalid email address."
       );
-      cy.screenshot();
     });
   });
 
@@ -55,7 +52,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "The message cannot be blank."
       );
-      cy.screenshot();
     });
   });
 
@@ -70,7 +66,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "The message cannot be blank."
       );
-      cy.screenshot();
     });
   });
 
@@ -86,7 +81,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "Your message has been successfully sent to our team."
       );
-            cy.screenshot();
     });
   });
 
@@ -104,7 +98,6 @@ describe("test suite for the contact form inputs validation", () => {
         "have.text",
         "Your message has been successfully sent to our team."
       );
-      cy.screenshot();
     });
   });
 });

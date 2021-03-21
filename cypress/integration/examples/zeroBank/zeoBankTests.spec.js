@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 
 describe('Test Suite for Zero Bank', () => {
 
@@ -13,7 +11,7 @@ describe('Test Suite for Zero Bank', () => {
       //verify the navigation bar using galaxy note 3 viewport 
       cy.get(testValues.navbar).should('be.visible');
       cy.viewport(360, 640);
-      cy.screenshot();
+     
     })
   });
 
@@ -22,7 +20,7 @@ describe('Test Suite for Zero Bank', () => {
       //verify the navigation bar using galaxy s9 viewport 
       cy.get(testValues.navbar).should('be.visible');
       cy.viewport(360, 740);
-      cy.screenshot();
+     
     });
   });
 
@@ -31,7 +29,7 @@ describe('Test Suite for Zero Bank', () => {
     //verify the navigation bar using iPhone 6/7/8 viewport 
     cy.get(testValues.navbar).should('be.visible');
     cy.viewport(375, 667);
-    cy.screenshot();
+  
     });
   });
 
@@ -40,7 +38,7 @@ describe('Test Suite for Zero Bank', () => {
     //verify the navigation bar using iPad viewport 
     cy.get(testValues.navbar).should('be.visible');
     cy.viewport(768, 1024);
-    cy.screenshot();
+ 
     });
   });
 
@@ -49,7 +47,6 @@ describe('Test Suite for Zero Bank', () => {
     cy.get('@testValues').then((testValues) => {
     //verify navigation bar on home page
     cy.get(testValues.navbar).should('be.visible');
-    cy.screenshot();
     });
   });
 
@@ -58,7 +55,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify navigation bar on online banking page
     cy.get(testValues.onlinebankingid).click();
     cy.get(testValues.navbar).should('be.visible');
-    cy.screenshot();
     });
   });
 
@@ -67,7 +63,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify navigation bar on the feedback form page
     cy.get(testValues.feedbackid).click();
     cy.get(testValues.navbar).should('be.visible');
-    cy.screenshot();
     });
   });
 
@@ -76,7 +71,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify navigation bar on the singing page
     cy.get(testValues.signinbuttonid).click();
     cy.get(testValues.navbar).should('be.visible');
-    cy.screenshot();
     });
   });
 
@@ -85,7 +79,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify that the url pathname on the online banking page changes when accesing to it.
     cy.get(testValues.onlinebankingid).click();
     cy.location('pathname').should('include', 'online-banking');
-    cy.screenshot();
     });
   });
 
@@ -94,7 +87,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify that the url pathname on the feedback page changes when accesing to it.
     cy.get(testValues.feedbackid).click();
     cy.location('pathname').should('include', 'feedback');
-    cy.screenshot();
     });
   });
 
@@ -103,7 +95,6 @@ describe('Test Suite for Zero Bank', () => {
     //verify that the url pathname on the sing in page changes when accesing to it.
     cy.get(testValues.signinbuttonid).click();
     cy.location('pathname').should('include', 'singin');
-    cy.screenshot();
     });
   });
     
@@ -115,7 +106,6 @@ describe('Test Suite for Zero Bank', () => {
       cy.location('pathname').should('include', 'feedback');
       cy.get(testValues.sendformfeedback).click();
       cy.location('pathname').should('include', 'feedback');
-      cy.screenshot();
     });
   });
 
@@ -127,7 +117,6 @@ describe('Test Suite for Zero Bank', () => {
       cy.get(testValues.formnameid).type(4);
       cy.get(testValues.sendformfeedback).click();
       cy.location('pathname').should('include', 'feedback');
-      cy.screenshot();
     });
   });
 
@@ -140,7 +129,6 @@ describe('Test Suite for Zero Bank', () => {
       cy.get(testValues.formemailid).type(4);
       cy.get(testValues.sendformfeedback).click();
       cy.location('pathname').should('include', 'feedback');
-      cy.screenshot();
     });
   });
 
@@ -154,22 +142,23 @@ describe('Test Suite for Zero Bank', () => {
       cy.get(testValues.formsubjectid).type(4);
       cy.get(testValues.sendformfeedback).click();
       cy.location('pathname').should('include', 'feedback');
-      cy.screenshot();
     });
   });
 
   it('Validate that the feedback form was sent when all the fields are filled', () => {
-    //verify the message when the form is sent 
-    cy.get(testValues.formemailid).click();
-    cy.location('pathname').should('include', 'feedback');
-    cy.get(testValues.formnameid).type(4);
-    cy.get(estValues.formemailid).type(4);
-    cy.get(testValues.formsubjectid).type(4);
-    cy.get(testValues.formcommentid).type(4);
-    cy.get(testValues.sendformfeedback).click();
-    cy.location('pathname').should('include', 'sendFeedback');
-    cy.log('The form has been sent without having validated the email of the user!');
-    cy.screenshot();
+      //verify the message when the form is sent 
+    cy.get('@testValues').then((testValues) => {
+      cy.get(testValues.feedbackid).click();
+      cy.get(testValues.formemailid).click();
+      cy.location('pathname').should('include', 'feedback');
+      cy.get(testValues.formnameid).type(4);
+      cy.get(testValues.formemailid).type(4);
+      cy.get(testValues.formsubjectid).type(4);
+      cy.get(testValues.formcommentid).type(4);
+      cy.get(testValues.sendformfeedback).click();
+      cy.location('pathname').should('include', 'sendFeedback');
+      cy.log('The form has been sent without having validated the email of the user!');
+    });
   });
   
 });

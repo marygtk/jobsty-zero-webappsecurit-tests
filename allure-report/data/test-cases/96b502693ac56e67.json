@@ -1,0 +1,242 @@
+{
+  "uid" : "96b502693ac56e67",
+  "name" : "Verify URL path on singin page",
+  "fullName" : "Verify URL path on singin page",
+  "historyId" : "dc8fdc07dc85fd68c558c8744c31b905",
+  "time" : {
+    "start" : 1615778207962,
+    "stop" : 1615778219106,
+    "duration" : 11144
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '/login.html' to include 'singin'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '/login.html' to include 'singin'\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:188:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '/login.html' to include 'singin'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '/login.html' to include 'singin'\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:188:31)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778207963,
+        "stop" : 1615778208305,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"zerobank.json\")",
+        "time" : {
+          "start" : 1615778208002,
+          "stop" : 1615778208002,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778208002,
+          "stop" : 1615778208003,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://zero.webappsecurity.com\")",
+        "time" : {
+          "start" : 1615778208003,
+          "stop" : 1615778208304,
+          "duration" : 301
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"@testValues\")",
+      "time" : {
+        "start" : 1615778208306,
+        "stop" : 1615778208309,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#signin_button\")",
+      "time" : {
+        "start" : 1615778208311,
+        "stop" : 1615778208322,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1615778208322,
+        "stop" : 1615778208422,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1615778208422,
+        "stop" : 1615778208422,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "location (\"pathname\")",
+      "time" : {
+        "start" : 1615778208422,
+        "stop" : 1615778218654,
+        "duration" : 10232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "pathname location",
+      "time" : {
+        "start" : 1615778218653,
+        "stop" : 1615778218653,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **/login.html** to include **singin** assert",
+      "time" : {
+        "start" : 1615778218653,
+        "stop" : 1615778218653,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5bddbeb587a7392",
+      "name" : "examples\\zeroBank\\zeoBankTests.spec.js:2021-03-15T03:16:58.658Z",
+      "source" : "5bddbeb587a7392.png",
+      "type" : "image/png",
+      "size" : 110804
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for Zero Bank"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ecbae8b3964aff2",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: expected '/login.html' to include 'singin'",
+      "time" : {
+        "start" : 1615769658619,
+        "stop" : 1615769669764,
+        "duration" : 11145
+      }
+    }, {
+      "uid" : "5663f1afc39db21b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '/login.html' to include 'singin'",
+      "time" : {
+        "start" : 1615692480364,
+        "stop" : 1615692485633,
+        "duration" : 5269
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "96b502693ac56e67.json",
+  "parameterValues" : [ ]
+}

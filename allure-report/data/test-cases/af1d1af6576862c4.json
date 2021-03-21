@@ -1,0 +1,242 @@
+{
+  "uid" : "af1d1af6576862c4",
+  "name" : "Verify navigation bar on the singin page",
+  "fullName" : "Verify navigation bar on the singin page",
+  "historyId" : "8830bdad6d363d614141a660dc8116cf",
+  "time" : {
+    "start" : 1615778189865,
+    "stop" : 1615778201417,
+    "duration" : 11552
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:164:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.\n    at Context.eval (http://zero.webappsecurity.com/__cypress/tests?p=cypress\\integration\\examples\\zeroBank\\zeoBankTests.spec.js:164:33)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1615778189883,
+        "stop" : 1615778190600,
+        "duration" : 717
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"zerobank.json\")",
+        "time" : {
+          "start" : 1615778189913,
+          "stop" : 1615778189913,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"testValues\")",
+        "time" : {
+          "start" : 1615778189913,
+          "stop" : 1615778189913,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit (\"http://zero.webappsecurity.com\")",
+        "time" : {
+          "start" : 1615778189914,
+          "stop" : 1615778190599,
+          "duration" : 685
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"@testValues\")",
+      "time" : {
+        "start" : 1615778190601,
+        "stop" : 1615778190604,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#signin_button\")",
+      "time" : {
+        "start" : 1615778190606,
+        "stop" : 1615778190618,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1615778190618,
+        "stop" : 1615778190729,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1615778190729,
+        "stop" : 1615778190729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#nav\")",
+      "time" : {
+        "start" : 1615778190729,
+        "stop" : 1615778200965,
+        "duration" : 10236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "#nav get",
+      "time" : {
+        "start" : 1615778200964,
+        "stop" : 1615778200964,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **#nav** to be **visible** assert",
+      "time" : {
+        "start" : 1615778200965,
+        "stop" : 1615778200965,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ff5da12e0768b98",
+      "name" : "examples\\zeroBank\\zeoBankTests.spec.js:2021-03-15T03:16:40.970Z",
+      "source" : "ff5da12e0768b98.png",
+      "type" : "image/png",
+      "size" : 108782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite for Zero Bank"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be281951e4322135",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.",
+      "time" : {
+        "start" : 1615769640664,
+        "stop" : 1615769652504,
+        "duration" : 11840
+      }
+    }, {
+      "uid" : "6ed7538f750c1a98",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#nav`, but never found it.",
+      "time" : {
+        "start" : 1615692468620,
+        "stop" : 1615692473867,
+        "duration" : 5247
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "af1d1af6576862c4.json",
+  "parameterValues" : [ ]
+}

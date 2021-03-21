@@ -7,7 +7,7 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#nav`, but never found it.",
       "children" : [ {
         "name" : "Verify navigation bar on the feedback form page",
-        "uid" : "5e7b0a175f906f26",
+        "uid" : "26d1ef094d119cb3",
         "parentUid" : "24c10e869c7aa626ba702245c86a142f",
         "status" : "failed",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "Timed out retrying after 10000ms: expected '<li>' to have text 'The message cannot be blank.', but the text was 'Invalid email address.'",
       "children" : [ {
         "name" : "Validate the submition of the form without any data",
-        "uid" : "d5e695443f5d6250",
+        "uid" : "f089e73aa2466f53",
         "parentUid" : "f23e33f49cb9936d1ad986af78810c3b",
         "status" : "failed",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "Timed out retrying after 10000ms: Expected to find element: `#nav`, but never found it.",
       "children" : [ {
         "name" : "Verify the navigation bar on the feedback form page",
-        "uid" : "9bc478b8c2b4d221",
+        "uid" : "ec153abc1c7e146c",
         "parentUid" : "d02f591cd3c3582bd180431ac4361d2e",
         "status" : "failed",
         "time" : {
@@ -54,7 +54,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Verify navigation bar on the singin page",
-        "uid" : "5c67806881af5957",
+        "uid" : "af1d1af6576862c4",
         "parentUid" : "d02f591cd3c3582bd180431ac4361d2e",
         "status" : "failed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "Timed out retrying after 10000ms: expected '/login.html' to include 'singin'",
       "children" : [ {
         "name" : "Verify URL path on singin page",
-        "uid" : "84c3a39a081add65",
+        "uid" : "96b502693ac56e67",
         "parentUid" : "193c4fce61608ed53cdb226998bd6e61",
         "status" : "failed",
         "time" : {
@@ -88,7 +88,7 @@
       "name" : "testValues is not defined",
       "children" : [ {
         "name" : "Validate that the feedback form was sent when all the fields are filled",
-        "uid" : "375e3d45c5708a5d",
+        "uid" : "d1ca29eb9b213ab1",
         "parentUid" : "2d86d96b6257bda928ea7a720a625867",
         "status" : "failed",
         "time" : {

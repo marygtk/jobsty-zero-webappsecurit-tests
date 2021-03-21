@@ -14,7 +14,6 @@ describe('Test Suite for login', () => {
             const {login,url} = testValues.automationPractice;
             cy.visit(url)
             cy.login(login);
-            cy.screenshot();
         });
     });
 
